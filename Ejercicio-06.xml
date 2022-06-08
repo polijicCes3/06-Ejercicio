@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listacursos SYSTEM "Ejercicio-06.dtd">
+<listacursos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio-06.xsd">
+    <curso>
+        <alumno>
+            <DNI>1010640462</DNI>
+            <primernombre>Cristian</primernombre>
+            <primerapellido>Grisales</primerapellido>
+            <segundoapellido>Venitez</segundoapellido>
+            <asignaturas>
+                <asignatura>
+                    <codigo>1</codigo>
+                    <nombre>Laravel II</nombre>
+                    <profesor>
+                        <NRP>99000</NRP>
+                        <primernombre>Fernando</primernombre>
+                        <primerapellido>Herrera</primerapellido>
+                    </profesor>
+                </asignatura>
+                <asignatura>
+                    <codigo>2</codigo>
+                    <nombre>React</nombre>
+                    <profesor>
+                        <NRP>99001</NRP>
+                        <primernombre>Ubaldo</primernombre>
+                        <primerapellido>Acosta</primerapellido>
+                    </profesor>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+        <alumno>
+            <DNI>1001360499</DNI>
+            <primernombre>Dayana</primernombre>
+            <primerapellido>Gomez</primerapellido>
+            <segundoapellido>Moreno</segundoapellido>
+            <asignaturas>
+                <asignatura>
+                    <codigo>1</codigo>
+                    <nombre>Ingles II</nombre>
+                    <profesor>
+                        <NRP>25782</NRP>
+                        <primernombre>Sol</primernombre>
+                        <primerapellido>Mirella</primerapellido>
+                    </profesor>
+                </asignatura>
+                <asignatura>
+                    <codigo>2</codigo>
+                    <nombre>Derecho societario</nombre>
+                    <profesor>
+                        <NRP>2</NRP>
+                        <primernombre>Juan</primernombre>
+                        <segundonombre>Fernando</segundonombre>
+                        <primerapellido>Buitrago</primerapellido>
+                    </profesor>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+    </curso>
+</listacursos>

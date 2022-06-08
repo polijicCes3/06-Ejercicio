@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xa="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="listacursos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="curso" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="alumno" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="DNI" />
+                                        <xs:element name="primernombre" />
+                                        <xs:element name="segundonombre" minOccurs="0" maxOccurs="1" />
+                                        <xs:element name="primerapellido" />
+                                        <xs:element name="segundoapellido" minOccurs="0" maxOccurs="1" />
+                                        <xs:element name="asignaturas">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="asignatura" minOccurs="1" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="codigo" />
+                                                                <xs:element name="nombre" />
+                                                                <xs:element name="profesor">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="NRP" />
+                                                                            <xs:element name="primernombre" />
+                                                                            <xs:element name="segundonombre" minOccurs="0" maxOccurs="1" />
+                                                                            <xs:element name="primerapellido" />
+                                                                            <xs:element name="segundoapellido" minOccurs="0" maxOccurs="1" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
